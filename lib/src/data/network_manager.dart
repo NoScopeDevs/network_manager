@@ -1,9 +1,9 @@
 import 'package:data_connection_checker/data_connection_checker.dart';
 
-import '../domain/network_manager.dart';
+import '../domain/inetwork_manager.dart';
 
-class INetworkManager implements NetworkManager {
-  INetworkManager(this.connectionChecker);
+class NetworkManager implements INetworkManager {
+  NetworkManager(this.connectionChecker);
 
   final DataConnectionChecker connectionChecker;
 

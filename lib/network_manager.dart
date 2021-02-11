@@ -7,5 +7,5 @@ library network_manager;
 export 'package:data_connection_checker/data_connection_checker.dart'
     show DataConnectionChecker;
 
-export 'src/data/network_manager_implementation.dart';
-export 'src/domain/network_manager.dart';
+export 'src/data/network_manager.dart';
+export 'src/domain/inetwork_manager.dart';
